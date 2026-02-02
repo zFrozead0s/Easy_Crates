@@ -1,0 +1,15 @@
+name: Easy Crates
+main: cykp\crates\Main
+version: 1.4.5
+api: [5.0.0]
+author: Cykp
+commands:
+  crate:
+    description: Crate admin
+    usage: "/crate create <id> <format> | /crate edit <id> item|probability | /crate place <id> | /crate remove | /crate delete <id> | /crate givekey <id> <amount> <player|all> | /crate reload"
+    permission: crates.admin
+permissions:
+  crates.use:
+    default: true
+  crates.admin:
+    default: op
