@@ -56,20 +56,5 @@ Then click a block to place it.
 - Right-click opens the crate (requires a key)
 - Hologram clears on chunk reload
 
-## Poggit
-Add `.poggit.yml`:
-```
-projects:
-  Crates:
-    path: ""
-    libs:
-      - src: muqsit/InvMenu/InvMenu
-        version: ^4.6.3
-      - src: DavyCraft648/PMServerUI/PMServerUI
-        version: ^1.0.2
-```
-
-Before pushing to Poggit, remove embedded libs from `src/`.
-
 ## Author
 Cykp
